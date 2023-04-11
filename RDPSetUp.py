@@ -23,8 +23,8 @@ import subprocess
 
 
 
-CRP = "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AWtgzh74GQnPniq4P8Inf_YZ3E_0b9Y5uFZDDLwt3N7ARGGBc-j4F5J-tlD6FMnyl6IRHA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)" #paste your rdp link
-
+#CRP = "DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AWtgzh74GQnPniq4P8Inf_YZ3E_0b9Y5uFZDDLwt3N7ARGGBc-j4F5J-tlD6FMnyl6IRHA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)" #paste your rdp link
+CRP=input()
 Pin = 123456 #pin
 
 
